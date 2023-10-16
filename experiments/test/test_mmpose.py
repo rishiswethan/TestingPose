@@ -82,7 +82,6 @@ class Infer3D:
 
 
 
-# img_path = '/mnt/nvme0n1p3/MySSD/Programming/AI/ClientProjects/develop/InstaMike/bkp/img.png'   # replace this with your own image path
 img_path = '/mnt/Extra/downloads/complex_dance_HD.mp4'   # replace this with your own image path
 # img_path = "/mnt/Extra/downloads/slow_dance.mp4"
 
