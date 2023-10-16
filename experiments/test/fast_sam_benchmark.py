@@ -12,7 +12,7 @@ from segment_anything import sam_model_registry, SamPredictor
 import numpy as np
 import mediapipe as mp
 
-IMAGE_PATH = '/mnt/nvme0n1p3/MySSD/Programming/AI/ClientProjects/develop/InstaMike/experiments/test/input/stock-photo-causal-businessman-standing-with-hands-at-sides-isolated-on-white-background-497478265.jpg'
+IMAGE_PATH = 'path-to-image'
 
 
 class SegmentPartSam:
