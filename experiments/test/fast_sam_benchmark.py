@@ -18,8 +18,8 @@ IMAGE_PATH = 'path-to-image'
 class SegmentPartSam:
     def __init__(
             self,
-            model_path="/mnt/nvme0n1p3/MySSD/Programming/AI/ClientProjects/develop/InstaMike/experiments/test/models/FastSAM-x.pt",
-            mediapipe_model_path="/mnt/nvme0n1p3/MySSD/Programming/AI/ClientProjects/develop/InstaMike/experiments/test/models/pose_landmarker_heavy.task",
+            model_path="models/FastSAM-x.pt",
+            mediapipe_model_path="models/pose_landmarker_heavy.task",
             device_name="cuda" if cuda.is_available() else "cpu",
             imgsz=1024,
     ):
